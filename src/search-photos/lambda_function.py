@@ -64,7 +64,6 @@ def get_photo_path(labels):
 
 def lambda_handler(event, context):
     print('event : ', event)
-    print("Build  works")
 
     q1 = event["queryStringParameters"]['q']
 
